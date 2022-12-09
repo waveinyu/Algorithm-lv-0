@@ -15,17 +15,23 @@ function solution(denum1, num1, denum2, num2) {
 }
 ```
 
-**최소공배수(Lowest Common Divisor, LCD)**
-
-- lcm(a, b)
-- [a, b]
-
 **최대공약수(Greatest Common Divisor, GCD)**
+
+— 두 자연수의 **공통된 약수** 중 **가장 큰 수**
 
 - gcd(a, b)
 - (a, b)
 
+**최소공배수(Lowest Common Divisor, LCD) = 두 자연수의 곱 / 최대공약수**
+
+— 두 자연수의 **공통된 배수** 중 **가장 작은 수**
+
+- lcm(a, b)
+- [a, b]
+
 **유클리드 호제법(최대공약수)**
+
+— **시간복잡도 O(log N)**로 효율적인 방식
 
 - a > b, a와 b를 서로 나눌 때 나누어진다면 b는 최대 공약수
 
